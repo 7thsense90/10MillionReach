@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>10 Million Reach | Brand Building, Marketing, Web Development & SEO</title>
+<meta name="description" content="10 Million Reach builds brands, websites and marketing that reach millions. Marketing, web development, UI/UX, SEO, AI chatbots and ready-made portals for real estate and fuel stations.">
+<meta name="theme-color" content="#131D34">
+<link rel="canonical" href="https://10millionreach.com/">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="10 Million Reach">
+<meta property="og:title" content="10 Million Reach | Built to reach ten million people">
+<meta property="og:description" content="One team for your brand, website, SEO and marketing. Plans from $0 upfront.">
+<meta property="og:url" content="https://10millionreach.com/">
+<meta property="og:image" content="https://10millionreach.com/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="chk" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M7.5 12.5l3 3 6-6.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="hdr" id="hdr">
+  <div class="wrap">
+    <a href="#home" class="logo" aria-label="10 Million Reach, home"><span class="wm"><span class="a">10</span><span class="b">Million</span><span class="c">Reach</span></span></a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#services" data-nav="services">Services</a>
+      <a href="#solutions" data-nav="solutions">Solutions</a>
+      <a href="#work" data-nav="work">Case Studies</a>
+      <a href="#pricing" data-nav="pricing">Pricing</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+    <div class="hdr-cta">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle colour theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M5.2 18.8l1.6-1.6M17.2 6.8l1.6-1.6"/></svg>
+      </button>
+      <a href="#contact" class="btn sm">Start a project <span class="arr">→</span></a>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mnav" id="mnav">
+  <a href="#home">Home <span>00</span></a>
+  <a href="#services">Services <span>01</span></a>
+  <a href="#solutions">Solutions <span>02</span></a>
+  <a href="#work">Case Studies <span>03</span></a>
+  <a href="#pricing">Pricing <span>04</span></a>
+  <a href="#about">About <span>05</span></a>
+  <a href="#contact">Contact <span>06</span></a>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true">View case</div>
+
+<main id="app">
+
+<!-- ================= HOME ================= -->
+<div class="view" data-view="home">
+  <div class="hero wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Brand building · Marketing · Technology</span>
+        <h1 style="margin-top:26px">
+          <span class="line"><span>Built to reach</span></span>
+          <span class="line"><span><em>ten million</em></span></span>
+          <span class="line"><span>people.</span></span>
+        </h1>
+        <p class="lead">We are the growth partner that builds the brand, ships the website, ranks it on Google and runs the campaigns, all under one roof and measured against one number: how many of the right people know your name.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn">Get your growth plan <span class="arr">→</span></a>
+          <a href="#work" class="btn ghost">See the results</a>
+        </div>
+      </div>
+      <div class="meter" aria-label="Live reach counter">
+        <canvas id="rings"></canvas>
+        <div class="chip-float c1">ROAS <b>4.7×</b></div>
+        <div class="chip-float c3">Organic <b>+212%</b></div>
+        <div class="chip-float c2">CPL <b>−58%</b></div>
+        <div class="meter-core">
+          <div class="live"><i></i> Live this month</div>
+          <div class="n" id="reachNum">0</div>
+          <div class="l">People reached for<br>our clients</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee" aria-hidden="true"><div class="track" id="marq"></div></div>
+
+  <section class="wrap">
+    <span class="eyebrow">Why we exist</span>
+    <p class="statement rv" style="margin-top:24px">Most brands hire five vendors and get five reports. <span class="dim">We give you one team, one strategy and one dashboard that shows exactly what your money bought.</span></p>
+    <div class="stats rv">
+      <div class="stat"><div class="v tnum"><span data-count="10" data-suffix="">0</span><small>M+</small></div><div class="k">People reached every month across client campaigns</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="140">0</span><small>+</small></div><div class="k">Brands launched, rebuilt or scaled since 2019</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="4.6" data-dec="1">0</span><small>×</small></div><div class="k">Average return on ad spend in the last 12 months</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="96">0</span><small>%</small></div><div class="k">Clients who renew after their first engagement</div></div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head">
+      <div><span class="eyebrow">What we do</span><h2 style="margin-top:18px">Five disciplines. One growth engine.</h2></div>
+      <p class="lead">Each service works on its own. Together they compound, because the same team that designs your site also writes the ads that send people to it.</p>
+    </div>
+    <div class="svc-list" id="svcList"></div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head">
+      <div><span class="eyebrow">Ready-made platforms</span><h2 style="margin-top:18px">Software we already built, ready for your brand.</h2></div>
+      <p class="lead">Skip the 9-month build. Our proven platforms go live in weeks, carry your branding and come with training and support.</p>
+    </div>
+    <div class="prod-grid" id="prodGrid"></div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head">
+      <div><span class="eyebrow">Selected work</span><h2 style="margin-top:18px">Numbers we put our name on.</h2></div>
+      <a href="#work" class="link-arrow" style="justify-self:end">All case studies <svg width="18" height="18"><use href="#arr"/></svg></a>
+    </div>
+    <div class="case-grid" id="homeCases"></div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head">
+      <div><span class="eyebrow">How we work</span><h2 style="margin-top:18px">From first call to first million in five steps.</h2></div>
+      <p class="lead">A fixed sequence with clear exit criteria at every step, so you always know where your project stands and what comes next.</p>
+    </div>
+    <div class="process rv">
+      <div class="step"><h4>Discover</h4><p>Audit your brand, site, search footprint and ad accounts. Interview customers and sales.</p><span class="wk">Week 1–2</span></div>
+      <div class="step"><h4>Strategize</h4><p>Positioning, audience map, channel mix and a 90-day plan with targets you sign off on.</p><span class="wk">Week 2–3</span></div>
+      <div class="step"><h4>Build</h4><p>Identity, website, landing pages, content and tracking, designed and engineered in-house.</p><span class="wk">Week 3–8</span></div>
+      <div class="step"><h4>Launch</h4><p>Campaigns go live with daily optimisation and a shared dashboard from day one.</p><span class="wk">Week 8–9</span></div>
+      <div class="step"><h4>Scale</h4><p>Double down on what converts, cut what doesn’t, and expand into new channels and markets.</p><span class="wk">Ongoing</span></div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head">
+      <div><span class="eyebrow">The difference</span><h2 style="margin-top:18px">Why brands switch to us.</h2></div>
+      <p class="lead">You can assemble freelancers, or hire a traditional agency. Here is what you give up either way.</p>
+    </div>
+    <div class="cmp-wrap rv">
+      <table class="cmp">
+        <thead><tr><th></th><th>Freelancers</th><th>Typical agency</th><th class="us">10 Million Reach</th></tr></thead>
+        <tbody>
+          <tr><td>Strategy, design, dev, SEO and ads under one roof</td><td><span class="n">No</span></td><td><span class="n">Partly</span></td><td class="us">Yes, one team</td></tr>
+          <tr><td>Proprietary software you can deploy</td><td><span class="n">No</span></td><td><span class="n">No</span></td><td class="us">3 platforms</td></tr>
+          <tr><td>Live performance dashboard</td><td><span class="n">Rarely</span></td><td><span class="n">Monthly PDF</span></td><td class="us">Real-time</td></tr>
+          <tr><td>Time from kickoff to launch</td><td>Unpredictable</td><td>12–16 weeks</td><td class="us">6–9 weeks</td></tr>
+          <tr><td>Targets written into the contract</td><td><span class="n">No</span></td><td><span class="n">No</span></td><td class="us">Yes</td></tr>
+          <tr><td>Single point of contact</td><td><span class="n">Many</span></td><td>Account manager</td><td class="us">Dedicated growth lead</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="cta rv"><canvas class="cta-rings"></canvas>
+    <span class="eyebrow" style="color:color-mix(in srgb,var(--paper) 60%,transparent)">Next step</span>
+    <h2 style="margin-top:22px">Your next ten million starts here.</h2>
+    <p>Book a 30-minute strategy call. You leave with an audit of your brand’s reach and three moves you can make this quarter, whether you hire us or not.</p>
+    <a href="#contact" class="btn">Book a strategy call <span class="arr">→</span></a>
+  </div></div>
+</div>
+
+<!-- ================= SERVICES ================= -->
+<div class="view" data-view="services" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">Services</span>
+    <h1>Everything your brand needs to be seen, chosen and remembered.</h1>
+    <p class="lead">Marketing, web development, UI/UX design and SEO, delivered by one senior team that shares a single plan and a single dashboard.</p>
+  </div>
+  <div class="wrap" id="svcBlocks"></div>
+  <section class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Questions</span><h2 style="margin-top:18px">Before you ask.</h2></div></div>
+    <div class="faq">
+      <details><summary>How quickly will we see results? <i></i></summary><p>Paid campaigns show measurable movement within the first two weeks. SEO compounds over three to six months. Every engagement starts with a 90-day plan and the targets you should hold us to.</p></details>
+      <details><summary>Do we have to buy every service? <i></i></summary><p>No. Most clients start with one discipline, usually a website rebuild or a campaign, and add more once they see the numbers. Pricing is modular.</p></details>
+      <details><summary>Who owns the website, content and ad accounts? <i></i></summary><p>You do. Code, designs, content, domains and ad accounts are registered to your business from day one. We work inside them with your permission.</p></details>
+      <details><summary>How do you report on performance? <i></i></summary><p>You get a live dashboard covering reach, traffic, leads, sales and spend, plus a fortnightly call with your growth lead to review what changed and why.</p></details>
+      <details><summary>Can you work with our in-house team? <i></i></summary><p>Yes. We regularly plug into internal marketing and IT teams, share our playbooks and train your staff so the knowledge stays in your business.</p></details>
+    </div>
+  </section>
+  <div class="wrap"><div class="cta"><canvas class="cta-rings"></canvas><h2>Pick a service. Or all five.</h2><p>Tell us where you want to be in twelve months and we will show you the shortest route.</p><a href="#contact" class="btn">Talk to a strategist <span class="arr">→</span></a></div></div>
+</div>
+
+<!-- ================= SOLUTIONS ================= -->
+<div class="view" data-view="solutions" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">Solutions</span>
+    <h1>Proven software, launched under your brand in weeks.</h1>
+    <p class="lead">We built these platforms for our own clients, refined them across dozens of deployments, and now license them with setup, branding, training and support included.</p>
+  </div>
+  <div class="wrap" id="solBlocks"></div>
+</div>
+
+<!-- ================= WORK ================= -->
+<div class="view" data-view="work" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">Case studies</span>
+    <h1>The work, the numbers and how we got there.</h1>
+    <p class="lead">A case for every industry we serve. Each one covers the business, the problem, our approach, what we delivered, the social media we manage, the leads we generate and the measured results.</p>
+  </div>
+  <div class="wrap">
+    <div class="filters" id="filters" role="toolbar" aria-label="Filter case studies"></div>
+    <div class="case-grid" id="allCases"></div>
+    <p class="muted" id="noCases" hidden style="padding:24px 0">No case studies match both filters yet. Try another industry or service.</p>
+  </div>
+</div>
+
+<!-- ================= CASE DETAIL ================= -->
+<div class="view" data-view="case" hidden><div id="caseDetail"></div></div>
+
+<!-- ================= PRICING ================= -->
+<div class="view" data-view="pricing" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">Pricing</span>
+    <h1>One monthly fee. Or pay per service.</h1>
+    <p class="lead">Get your website, marketing and updates for one low monthly subscription with nothing to pay upfront, or pick individual services. No hidden fees either way.</p>
+  </div>
+  <div class="wrap pz-top">
+    <div class="pz-mode" role="tablist" aria-label="How you want to pay">
+      <button type="button" role="tab" data-mode="sub" class="on" aria-selected="true">All-in subscription <em>$0 upfront</em></button>
+      <button type="button" role="tab" data-mode="buy" aria-selected="false">Pay per service</button>
+    </div>
+    <div class="pz-ind">
+      <label for="pz-ind">My business is in</label>
+      <div class="selectw"><select id="pz-ind"></select></div>
+    </div>
+  </div>
+  <div class="wrap" id="pz-subwrap">
+    <div class="plans" id="pz-plans" role="radiogroup" aria-label="Subscription plans"></div>
+    <div class="sub-detail">
+      <div><h3 class="sub-h">Subscription vs. paying per service</h3><div class="cmp-wrap" id="pz-cmp"></div></div>
+      <div class="sub-notes">
+        <h3 class="sub-h">How the subscription works</h3>
+        <div class="sn"><b>We build everything, you pay monthly</b><p>Website, setup and launch are included. Your first payment starts when we begin work.</p></div>
+        <div class="sn"><b>12-month minimum</b><p>After that it runs month to month. Leave any time with 30 days’ notice.</p></div>
+        <div class="sn"><b>You own it</b><p>Your website and content become yours after 24 months, or straight away by paying off the remaining build cost.</p></div>
+        <div class="sn"><b>Pause when you need to</b><p>Take one month off per year, with your website kept online.</p></div>
+        <div class="sn"><b>Proof every month</b><p>A short results report shows what changed and what we are doing next.</p></div>
+        <p class="muted" style="font-size:12.5px">Summary only. Full terms are set out in your agreement.</p>
+      </div>
+    </div>
+  </div>
+  <div class="wrap pz-grid" id="pz-buywrap" hidden>
+    <div style="min-width:0">
+      <p class="pz-hint" id="pz-hint"></p>
+      <div id="pz-groups"></div>
+    </div>
+    <aside class="sum" id="pz-sum" aria-live="polite"></aside>
+  </div>
+
+  <section class="wrap" id="pz-pv-sec" style="padding-top:clamp(56px,7vw,104px);padding-bottom:0">
+    <div class="pv-head">
+      <div><span class="eyebrow">Preview</span><h2 class="pz-h2" style="margin-bottom:0">See it for your business.</h2></div>
+      <div class="numf pv-name"><label for="pz-pv-name">Try it with your business name</label><div class="in"><input id="pz-pv-name" maxlength="40" autocomplete="organization"></div></div>
+    </div>
+    <div class="pv-tabs" id="pz-pv-tabs" role="tablist" aria-label="Service previews"></div>
+    <p class="pv-note" id="pz-pv-note"></p>
+    <div class="pv-stage" id="pz-pv-stage"><div class="pv" id="pz-pv"></div></div>
+    <p class="muted" style="font-size:13px;margin-top:12px">Concept preview for illustration. Your real designs are created with you after our discovery workshop.</p>
+  </section>
+
+  <section class="wrap" id="pz-roi-sec" style="padding-top:clamp(48px,6vw,88px)">
+    <span class="eyebrow">Your return</span>
+    <h2 class="pz-h2" id="pz-roi-h">Tick a service to see your expected return.</h2>
+    <div class="roi-kpis" id="pz-kpis"></div>
+    <details class="assume">
+      <summary>Adjust the numbers behind this estimate</summary>
+      <div class="assume-grid">
+        <div class="numf"><label for="pz-v" id="pz-vl">Average customer value</label><div class="in"><span>$</span><input id="pz-v" type="number" min="1" inputmode="decimal"></div></div>
+        <div class="numf"><label for="pz-b" id="pz-bl">Customers per month today</label><div class="in"><input id="pz-b" type="number" min="1" inputmode="numeric"></div></div>
+        <div class="numf"><label for="pz-m">Profit margin</label><div class="in"><input id="pz-m" type="number" min="1" max="95"><span>%</span></div></div>
+        <div class="numf"><label for="pz-ad">Monthly ad budget (if ads selected)</label><div class="in"><span>$</span><input id="pz-ad" type="number" min="0" step="100"></div></div>
+      </div>
+      <p class="muted" style="font-size:13px;margin-top:14px">Estimates use typical results for your industry and count profit, not revenue, against everything you pay, including ad budget. Actual results vary.</p>
+    </details>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <span class="eyebrow">Milestones</span>
+    <h2 class="pz-h2">What happens, and when.</h2>
+    <div class="ms" id="pz-ms"></div>
+  </section>
+
+  <div class="wrap"><div class="cta"><canvas class="cta-rings"></canvas><h2>Happy with your plan?</h2><p>Send it to us. A growth lead will review it with you and confirm a start date.</p><button type="button" class="btn" data-sendplan>Send my plan <span class="arr">→</span></button></div></div>
+  <div class="pz-bar" id="pz-bar" hidden><div><b id="pz-bar-t"></b><span id="pz-bar-s"></span></div><a href="#pricing" class="btn sm" id="pz-bar-go">View total</a></div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<div class="view" data-view="about" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">About</span>
+    <h1>We named the company after the goal.</h1>
+    <p class="lead">10 Million Reach started with a simple promise to our first client: get your brand in front of ten million people. We hit it in seven months. Every engagement since has been measured the same way, by the reach and revenue we create.</p>
+  </div>
+  <section class="wrap" style="padding-top:24px">
+    <div class="stats" style="margin-top:0">
+      <div class="stat"><div class="v tnum">2019</div><div class="k">Founded with a single client and a single target</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="64">0</span></div><div class="k">Strategists, designers, engineers and media buyers</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="11">0</span></div><div class="k">Countries where our clients sell</div></div>
+      <div class="stat"><div class="v tnum"><span data-count="3">0</span></div><div class="k">In-house software platforms in production</div></div>
+    </div>
+  </section>
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head"><div><span class="eyebrow">Principles</span><h2 style="margin-top:18px">What we will always do.</h2></div></div>
+    <div class="princ rv">
+      <div class="pr"><h3>Measure everything</h3><p>If it cannot be tracked, we don’t sell it. Every deliverable is tied to a metric you can see in your dashboard.</p></div>
+      <div class="pr"><h3>Senior people only</h3><p>The strategist who pitches you runs your account. No bait-and-switch to a junior team after the contract is signed.</p></div>
+      <div class="pr"><h3>Build to own</h3><p>You own the code, the content and the accounts. We earn renewals with results, not with lock-in.</p></div>
+    </div>
+  </section>
+  <section class="wrap" style="padding-top:0">
+    <div class="sec-head"><div><span class="eyebrow">The team</span><h2 style="margin-top:18px">Four studios, one floor.</h2></div><p class="lead">Every project draws on all four studios, coordinated by a single growth lead.</p></div>
+    <div class="teams rv">
+      <div class="team"><b>14</b><h4>Brand &amp; Strategy</h4><p>Positioning, research, messaging and campaign planning.</p></div>
+      <div class="team"><b>16</b><h4>Design</h4><p>Identity, UI/UX, motion and content production.</p></div>
+      <div class="team"><b>22</b><h4>Engineering</h4><p>Web, mobile, platforms, AI and data infrastructure.</p></div>
+      <div class="team"><b>12</b><h4>Growth &amp; Media</h4><p>SEO, paid social, search ads and conversion testing.</p></div>
+    </div>
+  </section>
+  <div class="wrap"><div class="cta"><canvas class="cta-rings"></canvas><h2>Join the brands that grew with us.</h2><a href="#contact" class="btn">Start a conversation <span class="arr">→</span></a></div></div>
+</div>
+
+<!-- ================= CONTACT ================= -->
+<div class="view" data-view="contact" hidden>
+  <div class="page-head wrap">
+    <span class="eyebrow">Contact</span>
+    <h1>Tell us where you want to be.</h1>
+    <p class="lead">Share a few details and a growth lead will reply within one business day with next steps and a time for your strategy call.</p>
+  </div>
+  <div class="wrap contact-grid">
+    <div class="cinfo">
+      <div class="item"><div class="lb">New business</div><div class="v"><span id="mail">hello@10millionreach.com</span><button class="copy" id="copyMail" type="button">Copy</button></div></div>
+      <div class="item"><div class="lb">Response time</div><div class="v">Within 1 business day</div></div>
+      <div class="item"><div class="lb">Working with</div><div class="v">Brands across Asia, the Middle East, Europe and North America</div></div>
+      <div class="item"><div class="lb">Website</div><div class="v"><a href="https://10millionreach.com/" target="_blank" rel="noopener" class="link-arrow">10millionreach.com <svg width="16" height="16"><use href="#arr"/></svg></a></div></div>
+    </div>
+    <form class="cform" id="cform" novalidate>
+      <div id="formBody" style="display:grid;gap:22px">
+        <div class="two">
+          <div class="fld"><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required></div>
+          <div class="fld"><label for="f-email">Work email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="two">
+          <div class="fld"><label for="f-co">Company</label><input id="f-co" name="company" autocomplete="organization"></div>
+          <div class="fld"><label for="f-web">Website</label><input id="f-web" name="website" placeholder="yourbrand.com"></div>
+        </div>
+        <div class="fld"><span class="lb">What do you need?</span>
+          <div class="chips" id="needChips"></div>
+        </div>
+        <div class="fld"><span class="lb">Monthly budget (USD)</span>
+          <div class="chips" id="budgetChips"></div>
+        </div>
+        <div class="fld"><label for="f-msg">Goals and timeline</label><textarea id="f-msg" name="msg" placeholder="We want to launch in Q1 and double inbound leads by June."></textarea></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap">
+          <span class="err" id="ferr" role="alert"></span>
+          <button class="btn" type="submit">Send brief <span class="arr">→</span></button>
+        </div>
+      </div>
+      <div class="done" id="formDone" hidden>
+        <span class="eyebrow">Brief received</span>
+        <h3 id="doneTitle">Thank you.</h3>
+        <p class="muted" id="doneText"></p>
+        <div><button class="btn ghost sm" type="button" id="formReset">Send another brief</button></div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#home" class="logo" style="font-size:23px" aria-label="10 Million Reach, home"><span class="wm"><span class="a">10</span><span class="b">Million</span><span class="c">Reach</span></span></a>
+        <p class="muted" style="margin-top:14px;max-width:34ch">Brand building, marketing and technology for companies that intend to be known.</p>
+        <a href="#contact" class="btn sm" style="margin-top:22px">Start a project <span class="arr">→</span></a>
+      </div>
+      <div><h5>Services</h5><ul><li><a href="#services">Marketing &amp; Brand</a></li><li><a href="#services">Web Development</a></li><li><a href="#services">UI/UX Design</a></li><li><a href="#services">SEO</a></li></ul></div>
+      <div><h5>Solutions</h5><ul><li><a href="#solutions">Real Estate Portal</a></li><li><a href="#solutions">Fuel Station Portal</a></li><li><a href="#solutions">AI Chatbots</a></li></ul></div>
+      <div><h5>Company</h5><ul><li><a href="#work">Case Studies</a></li><li><a href="#pricing">Pricing</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    </div>
+    <div class="foot-big wm" aria-hidden="true"><span class="a">10</span><span class="b">Million</span><span class="c">Reach</span></div>
+    <div class="foot-legal"><span>© 2026 10 Million Reach. All rights reserved.</span><span>Design draft: client names, case-study figures and the contact form are illustrative placeholders.</span></div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
